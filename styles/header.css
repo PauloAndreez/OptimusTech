@@ -1,0 +1,48 @@
+.cabecalho, .cabecalho__logo  {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cabecalho__logo {
+    width: 5em;
+    margin: 1.7em 7em;
+    align-items: center;
+}
+
+.logo__titulo {
+    margin-left: 0.5em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-logo);
+    font-size: 18px;
+}
+
+.cabecalho__nav {
+    margin-left: 10em;
+}
+
+.nav__ancora {
+    color: var(--cinza);
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.cabecalho__login {
+    margin: 0 7em 0 auto;
+}
+
+.login__entrar {
+    color: var(--cinza);
+    text-decoration: none;
+    padding: 0.8em;
+}
+
+.login__cadastro {
+    color: var(--cor-de-fundo);
+    text-decoration: none;
+    padding: 0.8em;
+    background-color: var(--vinho);
+    border-radius: 10px;
+}

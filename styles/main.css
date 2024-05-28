@@ -1,0 +1,208 @@
+/* .sobrenos */
+
+
+.sobrenos {
+    margin: 6em;
+}
+
+.sobrenos__topico, 
+.sobrenos__titulo, 
+.sobrenos__texto,
+.talento__container {
+    display: flex;
+    justify-content: center;
+}
+
+.topico {
+    display: flex;
+    color: var(--vinho);
+    font-weight: 600;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: var(--preto);
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0.8em 0;
+}
+
+.sobrenos__texto, .paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    width: 60%;
+    margin-left: 19vw;
+    text-align: center;
+
+}
+
+/*dados*/
+
+.sobrenos-dados {
+    display: flex;
+    margin: 0 6em;
+    gap: 0 6em;
+}
+
+.dados__item {
+    width: 25%;
+}
+
+.dados__titulo {
+    color: var(--vinho);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.dados__subtitulo {
+    color: var(--preto);
+    font-size: 18px;
+    margin: 1em 0;
+}
+
+.dados__texto {
+    color: var(--cinza);
+    font-weight: 400;
+}
+
+/* talentos */
+
+.talentos {
+    margin-top: 15em;
+}
+
+.talentos__titulo {
+    font-size: 36px;
+}
+
+.talento__container {
+    margin-top: 5em;
+}
+
+.talentos__vagas {
+    margin: 0 25%;
+    margin-top: 4em;
+
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    margin: 2em 0;
+}
+
+.vagas__item {
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+    margin: 1.5em 0;
+    padding: 1.5em;
+}
+
+.item__titulo {
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.item__info {
+    color: var(--cinza);
+    display: flex;
+    gap: 1.5em;
+}
+
+.vagas__dev {
+    margin-top: 4em;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+}
+
+.review__container {
+    width: 80%;
+    padding: 4em;
+    background-color: var(--fundo-review);
+    border-radius: 16px;
+    margin-top: 5em;
+}
+
+.review__titulo {
+    font-size: 32px;
+    text-align: center;
+}
+
+.review__perfil {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfil__avatar {
+    width: 56px;
+    margin-left: 47.8%;
+}
+
+.perfil__nome {
+    margin: 1em 0;
+}
+
+.perfil__cargo {
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.rodape {
+    background-color: var(--rodape);
+    padding: 3.5em ;
+    margin-top: 5em;
+}
+.rodape__titulo,
+.rodape__paragrafo,
+.rodape__copy,
+.rodape__contato {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.rodape__paragrafo {
+    font-size: 20px;
+    color: var(--cinza);
+    margin-bottom: 2em;
+}
+
+.rodape__contato {
+    gap: 1em ;
+}
+
+.rodape__email {
+}
+
+.rodape__button {
+    background-color: var(--vinho);
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+}
+
+.rodape__copy {
+    color: var(--copyright);
+    margin-top: 3em;
+}
+
+.contato__email {
+    border-radius: 8px;
+    width: 20%;
+}
+
+
+

@@ -1,0 +1,26 @@
+@import url(./styles/header.css);
+@import url(./styles/main.css);
+
+
+
+:root {
+    --cor-de-fundo: #ffffff ;
+    --vinho: #8e2424;
+    --cinza: #667085;
+    --cor-logo: #3A404E;
+    --preto: #101828;
+    --fundo-review: #C3191908;
+    --rodape: #F9FAFB;
+    --copyright: #98a2b3;
+
+
+    --fonte-principal: "inter" ;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+}
